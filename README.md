@@ -1,3 +1,21 @@
+<!--
+---
+name: Azure Functions TypeScript Event Hubs Trigger using Azure Developer CLI
+description: This repository contains an Azure Functions Event Hubs trigger quickstart written in C# and deployed to Azure Functions Flex Consumption using the Azure Developer CLI (azd). The sample demonstrates real-time news streaming with sentiment analysis and engagement tracking.
+page_type: sample
+products:
+- azure-functions
+- azure-event-hubs
+- azure
+- entra-id
+urlFragment: functions-quickstart-dotnet-azd-eventhub
+languages:
+- typescript
+- bicep
+- azdeveloper
+---
+-->
+
 # Azure Functions Event Hubs - TypeScript
 
 This project demonstrates an Azure Functions application written in TypeScript that processes messages from Azure Event Hubs. It includes an Event Hub trigger function that reads messages from an input Event Hub, processes them, and sends the processed messages to an output Event Hub.
